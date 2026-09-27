@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: black;
+    overflow: hidden;
+}
+
+.orb {
+    width: 260px;
+    height: 260px;
+    background: linear-gradient(135deg,
+    #f50000,
+    #f7f8f8,
+    #00000056,
+    #630c0c);    
+border-radius: 50%;
+box-shadow:
+0 0 40px #f9000066,
+0 0 90px #e55d5d44;
+transition: transform 0.15s;
+animation: morph 6s ease-in-out infinite;
+}
+@keyframes morph {
+    0%, 100%  {
+        border-radius: 
+        42% 58% 65% 35% /
+        45% 35% 65% 55%;
+    }
+    25% {
+        border-radius:
+        65% 35% 42% 58% /
+        35% 60% 40% 65%;
+    }
+    50% {
+         border-radius:
+        35% 65% 55% 45% /
+        60% 40% 65% 35%;
+    }
+    75% {
+         border-radius:
+        55% 45% 35% 65% /
+        40% 65% 35% 60%;
+    }
+}
