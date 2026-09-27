@@ -5,8 +5,9 @@ const x =
     e.clientX / innerWidth - 0.5;
 const y =
      e.clientY / innerHeight - 0.5;
+const movement = Math.min(35, Math.min(innerWidth, innerHeight) * 0.1);
 orb.style.transform = 
-`translate(${x*35}px,${y*35}px)
+`translate(${x*movement}px,${y*movement}px)
 rotate(${x*15}deg)
 scale(${1+Math.abs(y)*0.08})`;
 });

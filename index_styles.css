@@ -94,6 +94,15 @@ nav {
     font-size: 0.95rem;
 }
 
+.location-orb {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    flex: 0 0 44px;
+    background: transparent;
+}
+
 .social-link i {
     width: 20px;
     text-align: center;
