@@ -22,27 +22,44 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid rgba(243, 40, 33, 0.16);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 24px rgba(17, 17, 17, 0.06);
+    backdrop-filter: blur(6px);
 }
 
 .name-title {
     font-size: 1.5rem;
     color: #333;
     text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 0.8rem;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #333;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-links a:hover {
     color: #f32821;
+    background: rgba(243, 40, 33, 0.08);
+    transform: translateY(-1px);
 }
 
 .profile-section {
