@@ -6,8 +6,8 @@
         }
 
         body {
-            background-color: #ffffff;
-            color: #333;
+            background-color: #111111;
+            color: #f2f2f2;
             line-height: 1.6;
         }
 
@@ -25,14 +25,14 @@
             padding: 0.9rem 1.25rem;
             border: 1px solid rgba(243, 40, 33, 0.16);
             border-radius: 14px;
-            background: rgba(255, 255, 255, 0.85);
-            box-shadow: 0 8px 24px rgba(17, 17, 17, 0.06);
+            background: rgba(22, 22, 22, 0.92);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
             backdrop-filter: blur(6px);
         }
 
         .name-title {
             font-size: 1.5rem;
-            color: #333;
+            color: #f2f2f2;
             text-decoration: none;
             font-weight: 700;
             letter-spacing: 0.02em;
@@ -47,7 +47,7 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #333;
+            color: #f2f2f2;
             transition: all 0.3s ease;
             padding: 0.5rem 0.9rem;
             border-radius: 999px;
@@ -63,17 +63,17 @@
         }
 
         .project-card {
-            background: #faf8f8;
+            background: #202020;
             border-radius: 8px;
             padding: 2rem;
             margin-bottom: 2rem;
             transition: transform 0.3s ease;
-            border: 1px solid #efe9e9;
+            border: 1px solid #393939;
         }
 
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.35);
         }
 
         .project-title {
@@ -83,7 +83,7 @@
         }
 
         .highlight-link {
-            color: #dd381a;
+            color: #ff665b;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -98,7 +98,7 @@
 
         .key-features h4 {
             margin-bottom: 0.5rem;
-            color: #333;
+            color: #f2f2f2;
         }
 
         .key-features ul {
@@ -131,8 +131,8 @@
         }
 
         .skill-tag {
-            background: #fde5e3;
-            color: #d21f19;
+            background: #302725;
+            color: #ff665b;
             padding: 0.4rem 0.8rem;
             border-radius: 4px;
             font-size: 0.9rem;
@@ -141,7 +141,7 @@
 
         h2 {
             font-size: 2rem;
-            color: #333;
+            color: #f2f2f2;
             margin-bottom: 2rem;
         }
 
@@ -158,8 +158,8 @@
 
         .project-timeline {
             font-size: 0.9rem;
-            color: #d21f19;
-            background: #fde6e3;
+            color: #ff665b;
+            background: #302725;
             padding: 0.4rem 0.8rem;
             border-radius: 4px;
             font-weight: 500;

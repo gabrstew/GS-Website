@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #333;
+    background-color: #111111;
+    color: #f2f2f2;
     line-height: 1.6;
 }
 
@@ -25,14 +25,14 @@ nav {
     padding: 0.9rem 1.25rem;
     border: 1px solid rgba(243, 40, 33, 0.16);
     border-radius: 14px;
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 8px 24px rgba(17, 17, 17, 0.06);
+    background: rgba(22, 22, 22, 0.92);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
     backdrop-filter: blur(6px);
 }
 
 .name-title {
     font-size: 1.5rem;
-    color: #333;
+    color: #f2f2f2;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -47,7 +47,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #f2f2f2;
     transition: all 0.3s ease;
     padding: 0.5rem 0.9rem;
     border-radius: 999px;
@@ -89,7 +89,7 @@ nav {
 }
 
 .interests {
-    color: #666;
+    color: #c4c4c4;
     margin-bottom: 1rem;
 }
 
@@ -101,7 +101,7 @@ nav {
 
 .social-link {
     text-decoration: none;
-    color: #333;
+    color: #e8e8e8;
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -133,7 +133,7 @@ nav {
 }
 
 .social-link.linkedin i { color: #2789be; }
-.social-link.github i { color: #333; }
+.social-link.github i { color: #e8e8e8; }
 .social-link.twitter i { color: #1DA1F2; }
 .social-link.email i { color: #EA4335; }
 .social-link.university i { color: #cc0000; }
@@ -141,19 +141,19 @@ nav {
 
 .social-link:hover {
     transform: translateX(5px);
-    background-color: #f8f9fa;
+    background-color: #292929;
 }
 
-.social-link.linkedin:hover { background-color: #e6f3f9; }
-.social-link.github:hover { background-color: #f6f8fa; }
-.social-link.twitter:hover { background-color: #e8f5fd; }
-.social-link.email:hover { background-color: #fef2f2; }
-.social-link.university:hover { background-color: #fff5f5; }
-.social-link.location:hover { background-color: #f2f8f4; }
+.social-link.linkedin:hover,
+.social-link.github:hover,
+.social-link.twitter:hover,
+.social-link.email:hover,
+.social-link.university:hover,
+.social-link.location:hover { background-color: #292929; }
 
 .main-content h2 {
     font-size: 2rem;
-    color: #333;
+    color: #f2f2f2;
     margin-bottom: 1.5rem;
 }
 
@@ -174,7 +174,7 @@ nav {
 
 .highlight-link:hover {
     text-decoration: underline;
-    color: #ac2413;
+    color: #ff766a;
 }
 
 @media (max-width: 768px) {
