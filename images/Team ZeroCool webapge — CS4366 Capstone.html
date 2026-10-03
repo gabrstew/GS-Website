@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team ZeroCool — CS4366</title>
+<style>
+:root{color-scheme:light;--bg:#fff;--surface:#fff;--surface2:#f4f7fb;--text:#111827;--muted:#5f6b7a;--line:#d9e0ea;--accent:#155eef;--accent2:#155eef;--shadow:none}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}.root{min-height:100vh;background:var(--bg)}
+a{color:inherit;text-decoration:none}.container{width:min(1040px,92%);margin:auto}.nav{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}.navin{height:60px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:700}.brand span{color:var(--muted)}.links{display:flex;gap:20px;font-size:14px;color:var(--muted)}.links a:hover{color:var(--text)}
+.hero{padding:70px 0 65px;background:var(--surface)}.eyebrow{display:inline-flex;padding:5px 9px;border:1px solid var(--line);background:var(--surface2);font-size:12px;font-weight:600;color:var(--accent)}h1{font-size:clamp(36px,6vw,60px);line-height:1.08;letter-spacing:-.04em;margin:18px 0}.hero p{max-width:720px;color:var(--muted);font-size:17px}.buttons{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}.btn{padding:10px 16px;border:1px solid var(--line);font-weight:600;background:var(--surface)}.btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+section{padding:60px 0}.section-head{max-width:700px;margin-bottom:25px}.kicker{text-transform:uppercase;letter-spacing:.1em;font-size:11px;color:var(--muted);font-weight:700}.section-head h2{font-size:30px;letter-spacing:-.03em;margin:7px 0}.section-head p{color:var(--muted)}.grid{display:grid;gap:14px}.goals{grid-template-columns:repeat(4,1fr)}.card{background:var(--surface);border:1px solid var(--line);padding:20px}.card h3{margin:7px 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:14px}.num{width:32px;height:32px;background:var(--surface2);display:grid;place-items:center;color:var(--text);font-weight:700}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:stretch}.about .card p{font-size:16px}.flow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:22px}.step{padding:10px 13px;border-radius:10px;background:var(--surface2);font-size:13px;font-weight:750}.arrow{color:var(--muted)}
+.team{grid-template-columns:repeat(2,1fr)}.person{display:flex;gap:14px;align-items:flex-start}.avatar{width:40px;height:40px;background:var(--surface2);display:grid;place-items:center;font-weight:700;color:var(--text);flex:none}.role{color:var(--muted);font-size:12px;font-weight:600}.name{font-weight:700}.tablewrap{overflow:auto;border:1px solid var(--line)}.table{width:100%;border-collapse:collapse;background:var(--surface)}th,td{text-align:left;padding:13px 15px;border-bottom:1px solid var(--line);font-size:14px}th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--surface2)}tr:last-child td{border-bottom:0}
+.research{grid-template-columns:1fr 1fr}.finding{padding:14px 0;border-bottom:1px solid var(--line)}.finding:last-child{border-bottom:0}.finding b{display:block;margin-bottom:2px}.finding span{color:var(--muted);font-size:14px}.timeline{position:relative;margin-left:9px;border-left:2px solid var(--line);padding-left:25px}.event{position:relative;margin:0 0 24px}.event:before{content:"";position:absolute;width:11px;height:11px;border-radius:50%;background:var(--accent);left:-32px;top:7px;border:3px solid var(--bg)}.event .date{font-size:12px;font-weight:800;color:var(--accent)}.event h3{margin:3px 0}.event p{margin:0;color:var(--muted);font-size:14px}
+.status{display:inline-flex;padding:5px 9px;border-radius:999px;background:var(--surface2);font-size:12px;font-weight:750}.status.done{color:var(--accent2)}.status.progress{color:var(--accent)}.status.next{color:var(--muted)}footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footerin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){.goals{grid-template-columns:repeat(2,1fr)}.team{grid-template-columns:1fr 1fr}.about,.research{grid-template-columns:1fr}.links{display:none}}@media(max-width:560px){.goals,.team{grid-template-columns:1fr}.hero{padding:55px 0}.hero p{font-size:16px}section{padding:50px 0}}
+</style>
+</head>
+<body><div class="root">
+<nav class="nav"><div class="container navin"><a class="brand" href="#top">Team <span>ZeroCool</span></a><div class="links"><a href="#about">About</a><a href="#team">Team</a><a href="#research">Research</a><a href="#schedule">Schedule</a><a href="#plan">Plan</a></div></div></nav>
+
+<header class="hero" id="top"><div class="container">
+<span class="eyebrow">CS4366 • Senior Capstone • Fall 2026</span>
+<h1>Team ZeroCool</h1>
+<p>Reengineering and Documenting From Source Code — a command-line static analysis system that helps users understand unfamiliar Python projects by generating high-level documentation and UML diagrams.</p>
+<div class="buttons"><a class="btn primary" href="#plan">Explore the project</a><a class="btn" href="#team">Meet the team</a></div>
+</div></header>
+
+<section id="about"><div class="container"><div class="section-head"><div class="kicker">01 / About</div><h2>Reengineering and Documenting From Source Code</h2><p>The Reengineering Toolkit (RET) analyzes existing Python source code and produces higher-level documentation describing its structure, functionality, and identifiable relationships — without executing or modifying the analyzed program.</p></div><div class="about"><div class="card"><h3>Project motivation</h3><p>Developers and other technically experienced users can struggle to understand codebases that are large, unfamiliar, poorly documented, or no longer accompanied by accurate design documentation. Manually tracing relationships between components takes significant time. RET reduces this difficulty by automatically recovering useful structural information from Python source code as a higher-level starting point — not a replacement for detailed source inspection.</p></div><div class="card"><h3>System concept</h3><p>RET accepts a Python project through its CLI, parses eligible source files into Abstract Syntax Trees (ASTs), and analyzes them to identify program components and relationships.</p><div class="flow"><span class="step">Python Project</span><span class="arrow">→</span><span class="step">AST Analysis</span><span class="arrow">→</span><span class="step">Structure</span><span class="arrow">→</span><span class="step">Docs + UML</span></div></div></div></div></section>
+
+<section><div class="container"><div class="section-head"><div class="kicker">02 / Goals</div><h2>What the system should help users do</h2></div><div class="grid goals">
+<div class="card"><div class="num">01</div><h3>Analyze Python projects</h3><p>Support multi-file Python projects containing up to 700 combined lines of source code across one to five files.</p></div>
+<div class="card"><div class="num">02</div><h3>Explain structure</h3><p>Identify modules, packages, classes, functions, methods, variables, imports, and docstrings.</p></div>
+<div class="card"><div class="num">03</div><h3>Generate UML diagrams</h3><p>Create class, sequence, and dependency diagrams using applicable UML notation when sufficient information is available.</p></div>
+<div class="card"><div class="num">04</div><h3>Build confidence</h3><p>Keep analysis local so proprietary source code is not transmitted to external services.</p></div>
+</div></div></section>
+
+<section id="team"><div class="container"><div class="section-head"><div class="kicker">03 / Team</div><h2>Team ZeroCool</h2><p>Team roles are organized around coordination, SRS and presentation leadership, report formatting, webpage management, submission, and slide design.</p></div><div class="grid team">
+<div class="card person"><div class="avatar">A</div><div><div class="name">Alvin Hossain</div><div class="role">Meeting & Coordination; Follow-ups; SRS, Slides & Presentation Lead</div></div></div>
+<div class="card person"><div class="avatar">G</div><div><div class="name">Gabriel Stewart</div><div class="role">Meeting & Coordination; Follow-ups; Overleaf & Report Formatting Lead; SRS, Slides & Presentation Lead</div></div></div>
+<div class="card person"><div class="avatar">C</div><div><div class="name">Chirag Dinesh Oza</div><div class="role">Webpage & Submission Lead; Slide Design & Formatting</div></div></div>
+<div class="card person"><div class="avatar">W</div><div><div class="name">William Cassell</div><div class="role">Webpage & Submission Lead; Slide Design & Formatting</div></div></div>
+</div></div></section>
+
+<section id="research"><div class="container"><div class="section-head"><div class="kicker">04 / User research</div><h2>What potential users told us</h2><p>We interviewed five potential users outside CS4366 to understand how people approach unfamiliar source code and what information would help them. Participants ranged from students to professional software engineers and QA analysts.</p></div><div class="research grid">
+<div class="card"><h3>Interview participants</h3>
+<div class="finding"><b>Rafsan Firoz</b><span>Software Engineer at Turkish Airlines (6 yrs) • Java, Spring Boot, Python • Interviewed by Alvin</span></div>
+<div class="finding"><b>Charles Keller</b><span>Undergraduate at New Mexico Tech • NASA satellite work • Python, Julia • Interviewed by Gabriel</span></div>
+<div class="finding"><b>Kaushik</b><span>Senior at TTU • Python, JavaScript, SQL • Interviewed by Chirag</span></div>
+<div class="finding"><b>Shreya Patel</b><span>Software QA Analyst • Reads Python, Java, SQL • Interviewed by Chirag</span></div>
+<div class="finding"><b>Rishika Vats</b><span>CS Student • Python, C++, Java • Interviewed by Chirag</span></div>
+</div>
+<div class="card"><h3>Key findings</h3>
+<div class="finding"><b>Start with the big picture</b><span>Users want a plain-English project overview before reading individual files or looking at diagrams.</span></div>
+<div class="finding"><b>Relationships matter</b><span>Dependencies and program flow are the hardest parts to trace manually — especially across modules and services.</span></div>
+<div class="finding"><b>Visuals help — especially sequence flow</b><span>Sequence diagrams showing request flow were repeatedly cited as more useful than detailed class diagrams.</span></div>
+<div class="finding"><b>Traceability builds trust</b><span>Inaccurate generated documentation is worse than none — users will abandon a tool that "lies" about what code does.</span></div>
+<div class="finding"><b>Keep analysis local on the CLI</b><span>Proprietary source code cannot leave the network. The initial RET release stays command-line and local.</span></div>
+</div></div></div></section>
+
+<section id="activity"><div class="container"><div class="section-head"><div class="kicker">05 / Activities</div><h2>Meetings & project activities</h2><p>Team ZeroCool meets regularly to coordinate research, writing, and development. Scheduled meeting times are Tuesday and Thursday from 2:00 PM to 3:15 PM, with additional meetings arranged on other days depending on team availability.</p></div><div class="timeline">
+<div class="event"><div class="date">SEPTEMBER 2026</div><h3>Initial project discussion</h3><p>Defined the overall concept: analyze a Python codebase and generate high-level documentation and design information.</p></div>
+<div class="event"><div class="date">SEPTEMBER 2026</div><h3>Target-user discussion</h3><p>Identified software engineers, developers, product-oriented users, researchers, and other people who may need to understand unfamiliar code.</p></div>
+<div class="event"><div class="date">SEPTEMBER 2026</div><h3>Interview preparation</h3><p>Developed interview questions focused on codebase comprehension, pain points, desired documentation, and visualization needs.</p></div>
+<div class="event"><div class="date">SEPTEMBER 2026</div><h3>User interviews</h3><p>Collected feedback from five potential users — including a professional software engineer, a QA analyst, and students — and identified recurring requirements.</p></div>
+<div class="event"><div class="date">SEPTEMBER 2026</div><h3>SRS and presentation preparation</h3><p>Converted interview findings into requirements, project modules, slides, and supporting documentation.</p></div>
+</div></div></section>
+
+<section id="schedule"><div class="container"><div class="section-head"><div class="kicker">06 / Schedule</div><h2>Project schedule</h2><p>Stage 1 is focused on understanding users, defining requirements, and establishing the project plan.</p></div><div class="tablewrap"><table class="table"><thead><tr><th>Task</th><th>Status</th><th>Timing</th></tr></thead><tbody>
+<tr><td>User interviews</td><td><span class="status done">Completed</span></td><td>September 2026</td></tr>
+<tr><td>Interview analysis</td><td><span class="status done">Completed</span></td><td>September 2026</td></tr>
+<tr><td>SRS requirements</td><td><span class="status progress">In progress</span></td><td>September 2026</td></tr>
+<tr><td>Stage 1 report</td><td><span class="status progress">In progress</span></td><td>Before Sept. 27</td></tr>
+<tr><td>Presentation slides</td><td><span class="status progress">In progress</span></td><td>Before Sept. 27</td></tr>
+<tr><td>Stage 1 webpage</td><td><span class="status progress">In progress</span></td><td>Before Sept. 27</td></tr>
+<tr><td>System design</td><td><span class="status next">Upcoming</span></td><td>After Stage 1</td></tr>
+<tr><td>Implementation</td><td><span class="status next">Upcoming</span></td><td>Later stages</td></tr>
+<tr><td>Testing & demonstration</td><td><span class="status next">Upcoming</span></td><td>Later stages</td></tr>
+</tbody></table></div></div></section>
+
+<section id="plan"><div class="container"><div class="section-head"><div class="kicker">07 / Development plan</div><h2>From source code to understanding</h2><p>The RET is organized into modules that directly reflect the needs identified during user research and the constraints defined in the SRS.</p></div><div class="grid goals">
+<div class="card"><div class="num">01</div><h3>RET CLI & Project Input</h3><p>Command-line interface to supply a Python project, initiate analysis, report errors, and access generated results.</p></div>
+<div class="card"><div class="num">02</div><h3>Input Validation & File Discovery</h3><p>Validate the supplied project and identify analyzable Python .py source files while rejecting non-Python files.</p></div>
+<div class="card"><div class="num">03</div><h3>AST Construction</h3><p>Parse eligible Python source files into Abstract Syntax Trees without executing the analyzed program.</p></div>
+<div class="card"><div class="num">04</div><h3>Construct & Relationship Analysis</h3><p>Identify modules, packages, classes, functions, methods, imports, inheritance, and statically identifiable calls.</p></div>
+<div class="card"><div class="num">05</div><h3>RET Reporter & Output</h3><p>Generate human-readable documentation and applicable class, sequence, and dependency diagrams. Export organized results.</p></div>
+</div></div></section>
+
+<section><div class="container"><div class="card" style="text-align:center;padding:42px"><div class="kicker">Stage 1</div><h2 style="font-size:34px;margin:8px 0">Requirements → Design → Implementation</h2><p style="max-width:680px;margin:0 auto;color:var(--muted)">The Stage 1 work establishes the user needs and software requirements that will guide later design, implementation, testing, and demonstration of the Reengineering Toolkit.</p></div></div></section>
+
+<footer><div class="container footerin"><div><strong>Team ZeroCool</strong> • CS4366 Senior Capstone Project</div><div>Texas Tech University • Fall 2026</div></div></footer>
+</div></body></html>
